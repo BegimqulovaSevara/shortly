@@ -17,10 +17,10 @@ body {
     height: 100%;
     padding: 0;
     margin: 0;
-    font-family: "Arial", sans-serif;
+    font-family: "Poppins" "Arial", sans-serif;
     font-size: 16px;
     line-height: 1.5;
-    background-color: #fff;
+    background-color: #EFF1F7;
     color: #222;
     }
 
@@ -28,8 +28,20 @@ img {
     max-width: 100%;
     height: auto;
     }
-
-
+a{
+  text-decoration: none;
+}
+.button-blue {
+  color: #fff;
+  background-color: #2BD0D0;
+  border-radius: 20px;
+  padding-top: 14px;
+  padding-bottom: 14px;
+  padding-left: 40px;
+  padding-right: 40px;
+  font-weight: 700;
+  border: 0;
+}
   /* CONTAINER */
 .container {
     width: 100%;
@@ -45,3 +57,111 @@ img {
 .main-content {
     flex-grow: 1;
     }
+/* HEADER */
+.header {
+  padding-bottom: 78px;
+  padding-top: 48px;
+  background-color: #fff;
+}
+.header__container {
+  display: flex;
+  align-items: center;
+}
+.header__link {
+  margin-right: 46px;
+}
+.header__img {
+  display: block;
+}
+.navlist {
+  margin-right: auto;
+}
+.navlist__list {
+  list-style: none;
+  display: flex;
+}
+.navlist__item:not(:last-child){
+  margin-right: 29px;
+}
+.navlist__link {
+  color: #9E9AA8;
+  font-weight: 700;
+}
+.sign-up {
+}
+.sign-up__button {
+  padding: 9px 24px 8px 24px;
+}
+.login{
+  margin-right: 37px;
+  color: #9E9AA8;
+  font-weight: 700;
+}
+/* STATISTICS SECTION */
+.hero {
+  padding-top: 1px;
+  padding-bottom: 150px;
+  background-color: #fff;
+}
+.hero__container{
+  position: relative;
+  /* display: flex; */
+}
+.hero__info {
+  width: 563px;
+}
+.hero__title {
+  font-weight: 700;
+  font-size: 80px;
+  line-height: 90px;
+  margin-bottom: 8px;
+}
+.hero__paragraph {
+  margin: 0;
+  margin-bottom: 38px;
+  font-weight: 500;
+  font-size: 36px;
+  color: #9E9AA8;
+}
+.hero__img {
+  width: 733px;
+  height: 482px;
+  position: absolute;
+  bottom: -70px;
+  right: -270px;
+}
+.form {
+  width: 1110px;
+  height: 168px;
+  position: absolute;
+  transform: translateY(50%);
+  background-color: #3A3054;
+  padding: 52px 65px 52px 65px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+.form__img-left{
+  position: absolute;
+  top: 29px;
+  left: -134px;
+}
+.form__img-right{
+  position: absolute;
+  top: -184px;
+  right: -252px;
+}
+.form__input {
+  position: relative;
+  z-index: 2;
+  width: 769px;
+  height: 64px;
+  margin-right: 24px;
+  border: 0;
+  border-radius: 10px;
+}
+.form__button {
+  position: relative;
+  z-index: 2;
+  height: 64px;
+  border-radius: 10px;
+}
